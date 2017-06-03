@@ -4,17 +4,13 @@
 	box-sizing: border-box;
 }
 
-.all{
-	width: 100%;
-	background: #453E4A;
-}
 
 .container{
 	display: flex;
 	margin: 0 auto;
 	flex-direction: column;
-	width: 960px;
-	background-color: white;
+	width: 100%;
+	background-color: #FFFCE6;
 }
 
 .name{
@@ -24,12 +20,12 @@
 	margin: 0 auto;
 	font-size: 5em;
 	font-family: 'Oswald', sans-serif;
-	color: #785EDD;
+	color: #4CD4B0;
 }
 
 .board{
-	width: 600px;
-	height: 600px;
+	width: 480px;
+	height: 480px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -38,35 +34,35 @@
 
 .square{
 	color: white;
-	font-size: 64px;
+	font-size: 60px;
 	font-family: 'Rubik', sans-serif;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 	border: 2px solid white;
-	width: 200px;
-	height: 200px;
-	background: #9E58DC; 
+	width: 160px;
+	height: 160px;
+	background: #4CD4B0; 
 	cursor: pointer;
 	transition: all ease 0.7s;
 }
 
 .square:hover{
-	background: #453E4A;
+	background: #EDD834;
 }
 
 .modal{
 	position: absolute;
-	left: 476px;
-	top: 100px;
+	margin: 100px 0 0 550px;
 	visibility: hidden;
 	color: white;
 	width: 400px;
-	height: 250px;
-	background: #AE44C8;
+	height: 300px;
+	background: #EDD834;
 	display: flex;
+	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	border: 2px solid #453E4A;
+	border: 2px solid #7D1424;
 }
